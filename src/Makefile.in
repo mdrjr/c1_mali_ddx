@@ -529,6 +529,8 @@ install-dvi: install-dvi-am
 install-dvi-am:
 
 install-exec-am:
+	install -m 0644 xorg.conf /etc/X11/xorg.conf
+	
 
 install-html: install-html-am
 
