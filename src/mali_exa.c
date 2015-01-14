@@ -27,6 +27,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <xorg-server.h>
 #include <xf86.h>
 
 #include "mali_def.h"
